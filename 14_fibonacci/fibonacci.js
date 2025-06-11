@@ -9,7 +9,7 @@ const fibonacci = function (x) {
   for (let i = 1; i < x; i++) {
    let new_current = current + current_minus_1;
 
-   console.log(new_current);
+   //console.log(new_current);
    current_minus_1 = current;
    current = new_current;
   }
